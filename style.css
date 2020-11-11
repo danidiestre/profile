@@ -1,0 +1,80 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto:wght@500&display=swap');
+
+body {
+
+    background-color: F7F9FC;
+    font-family: 'Open-Sans', sans-serif;
+    color: #575F7D;
+    font-size: 17px;
+    font-weight: 300; 
+    line-height: normal ;
+}
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-white {
+    background-color: rgba(255, 255, 255, 0.815);
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+#img-circle {
+    border-radius: 50%;
+
+}
+.btn-red {
+    background-color: blue;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin: 30px;
+    display: inline-block;
+    
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+
+    
+}
+
+.btn-red:hover{
+    background-color: red;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    
+}
+
+.list-inline li {
+    display: inline-block;
+    font-size: 50px;
+    padding: 6px;
+    font-weight: 80%;
+    
+}
+
+.list-inline i:hover {
+    color: rgb(207, 89, 89);
+}
+
+.container{
+    width: 900px;
+    margin: 40px auto;
+
+}
+
+
+
